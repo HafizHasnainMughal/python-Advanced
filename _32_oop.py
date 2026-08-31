@@ -1,7 +1,7 @@
 # OOP (Object-Oriented Programming)
 '''
     Programming ka ek style jisme hum real-world entities ko
-    Objects aur Classes ki form mein represent karte hain.
+     Objects aur Classes ki form mein represent karte hain.
 
     In oop by using a class in which having many different
     clid having their own properties.
