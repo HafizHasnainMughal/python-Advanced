@@ -37,5 +37,16 @@ first_person.input_data()
 first_person.data_diplay()
 
 print("---------------")
+'''
+    function vs method
+    function > jo class kau bahir define kiya jata hay or is ka koi 
+     object kay sath call nahi kiya jata hay.
+    method > jo class kay under define kiya jata hay or object kay sath call hota hay.
+'''
+print("---------------")
+print("simple function ")
 
-
+def hellow():
+    name="mughal"
+    print(name)
+hellow()
