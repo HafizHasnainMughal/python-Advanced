@@ -23,6 +23,52 @@
         pass
 '''
 print("------------------")
+'''
+    1. Single Inheritance
+        syntex:
+            class Parent:
+                pass
+            class child(Parent):
+                pass
+    2. Multilevel Inheritance
+        syntex:
+            class grandfather:
+                pass
+            class parent(grandfather):
+                pass
+            class child(parent):
+                pass
+    3. Multiple Inheritance
+        syntex:
+            class father:
+                pass
+            class mother:
+                pass
+            class child(father,mother):
+                pass
+    4. Hierarchical Inheritance
+        syntex:
+            class father:
+                pass
+            class child_boy(father):
+                pass
+            class child_girl(father):
+                pass
+    5. Hybrid Inheritance
+        syntex:
+            class person:
+                pass
+            class father(person):
+                pass
+            class mother(person):
+                pass
+            class child(father,mother):
+                pass
+
+'''
+
+
+print("------------------")
 print("simple inheritence class with method ")
 
 class animal:
@@ -141,3 +187,4 @@ class Manager(Employee):
 manager=Manager()
 manager.display_info()
 manager.calculate_salary()
+
