@@ -68,3 +68,19 @@ class Student:
 a1=Student()
 a1.display_data()
 print(a1._name) #ya direct access kary ga, but ye best practice nahi hay
+
+print("----------------")
+# public variable
+'''
+    public variable ko class kay bahir bi access kiya jasakta hay,
+    or ya defualt hota hay '''
+
+class public_student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def display_data(self):
+        print(f"student name is {self.name} and age is {self.age}")
+public_student1=public_student("Ali hassan",25)
+public_student1.display_data()
+print(public_student1.name) #ya direct access kary ga
